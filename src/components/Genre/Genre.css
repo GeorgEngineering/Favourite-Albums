@@ -1,0 +1,54 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+.main-content .header {
+    display: grid;
+    grid-template-columns: auto auto fit-content(100%);
+    justify-content: space-between;
+}
+
+/* Genre Title/Logo */
+.genre-logo {
+    text-align: right;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+    
+    padding: 0.5em;
+    padding-top: 0;
+    
+    font-size: 3rem;
+    font-family: 'Oxanium', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: 0 0 7px #fff, 
+        0 0 10px #fff, 
+        0 0 21px #fff, 
+        0 0 42px #ff10f0, 
+        0 0 82px #ff10f0, 
+        0 0 90px #ff10f0;
+}
+
+/* Genre-describing text */
+.header div {
+    color: #39FF14;
+    background-color: rgba(0, 0, 0, 0.23);
+
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 5em;
+    /* margin-right: 1em; */
+}
+
+/* Header img */
+.header img {
+    object-fit: cover;
+    width: 90%;
+    height: 70%;
+    padding-left: 1em;
+}
+
+hr {
+    margin-bottom: 1em;
+}
