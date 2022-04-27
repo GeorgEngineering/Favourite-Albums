@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+/* FIX THE BOTTOM PARTS LATER */
+/* FONT IMPORTS */
+/* Title font */ @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Section logo font */ @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* Paragraph text */ @import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  scroll-behavior: smooth;
+  background: #232224;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 1px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FF10F0;
+}
+
+/* H1 TITLE */
+.app h1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-grow: 1;
+
+  padding-top: 0.1em;
+
+  font-family: 'Major Mono Display', monospace;
   color: white;
+  font-size: 4em;
+
+  animation: glow 2s ease-in-out infinite alternate;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes glow {
   from {
-    transform: rotate(0deg);
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+#hiphop p {
+  background-color: black;
 }
