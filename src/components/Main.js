@@ -1487,7 +1487,7 @@ class Main extends React.Component {
                 <Section id="random" backgroundColor="none" artistColor="yellow">
                     <Genre 
                         genreName="Random" 
-                        genreDescriptionTitle="Get a taste of my taste of music"
+                        genreDescriptionTitle="Get a taste of my taste of music. "
                         genreDescription="The albums in this section will give a good idea of the different kinds of things I like listening to! A bit of everything, but also not really, it takes me too long to find the perfect albums to represent my 'music map' as you could call it. I think the only one definitive trait that sums up my entire listening experience is that nothing I listen to is sad (most of the time)! I gotta be happy or live the angsty emo fantasy, there are no in-betweens. Music, for me and for most people, is something that brings the ✨ colour ✨ into life. Music makes me feel alive."
                         imageSource="https://cdn52.picsart.com/175978815000202.gif?to=crop&type=webp&r=40x40&q=50"
                         ></Genre>
@@ -1517,7 +1517,7 @@ class Main extends React.Component {
                 <Section id="pop" backgroundColor="#ff9efb" artistColor="#fcff9e">
                     <Genre 
                     genreName="Pop" 
-                    genreDescriptionTitle="pop...poppin' party..."
+                    genreDescriptionTitle="pop...poppin' party... "
                     genreDescription="The pop genre confuses me and whenever I think of it, I either think of tasty things (bubble gum?) or an explosion of different colours. So many different genres could become popular so you can't really describe the genre as a singular musical category... There's something comforting about popular music, because you have a large fanbase to relate with. And when someone asks you what your favourite genre of music, you don't have to awkwardly mention something they probably don't listen to, which is really scary and painful. Just name the popular artist and you already have a conversation topic and soon enough you will be best friends forever. I don't know about you but I love Call Me Maybe 🥺"
                     />
                     <Container>{this.state.albumValues[6].map(this.listAlbums)}</Container>
