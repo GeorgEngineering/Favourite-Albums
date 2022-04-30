@@ -7,7 +7,7 @@
 ## Process
 At first, I began the design on a Google Docs file, playing around with the width and the options for the layout. I became frustrated with the limitations given by Google Docs, and how the visuals increasingly made the document slower in performance. 
 
-![An image of the Favourite ALbums Google Docs](https://imgur.com/a/SpjigcI)
+![An image of the Favourite Albums Google Docs](https://imgur.com/a/SpjigcI)
 
 I moved on to a website format, initially using HTML and CSS to display my work. However, the code was lengthy, and often repeated tags. As I continued to learn more about front-end development, I learned that there were easier ways to clean up my code, and eliminate repeating sections. 
 
