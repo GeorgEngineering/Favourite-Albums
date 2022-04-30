@@ -1,5 +1,5 @@
 # 🎧 Favourite Albums
-![An image of the Favourite Albums website](https://imgur.com/a/GnMLsWU)
+![An image of the Favourite Albums website](https://i.imgur.com/rHEERA1.png)
 
 ## Inspiration 
 [Favourite Albums](favourite-albums.netlify.app) is a personal project I've developed to showcase a few of my favourite albums across a wide range of different genres! I originally got inspired by a fellow music nerd friend who listed their favourite albums over a Google Docs. However, I was unsatisfied with the limited layout and performance that this format provided, so I decided to switch over to a website!
@@ -7,7 +7,7 @@
 ## Process
 At first, I began the design on a Google Docs file, playing around with the width and the options for the layout. I became frustrated with the limitations given by Google Docs, and how the visuals increasingly made the document slower in performance. 
 
-![An image of the Favourite Albums Google Docs](https://imgur.com/a/SpjigcI)
+![An image of the Favourite Albums Google Docs](https://i.imgur.com/azlatXo.png)
 
 I moved on to a website format, initially using HTML and CSS to display my work. However, the code was lengthy, and often repeated tags. As I continued to learn more about front-end development, I learned that there were easier ways to clean up my code, and eliminate repeating sections. 
 
