@@ -1484,17 +1484,17 @@ class Main extends React.Component {
                 <h1>Favourite Albums</h1>
 
                 {/* Random */}
-                <Section id="random" backgroundColor="none" artistColor="yellow">
+                <Section id="random" backgroundColor="#212120" artistColor="yellow">
                     <Genre 
                         genreName="Random" 
-                        genreDescriptionTitle="Get a taste of my taste of music. "
-                        genreDescription="The albums in this section will give a good idea of the different kinds of things I like listening to! A bit of everything, but also not really, it takes me too long to find the perfect albums to represent my 'music map' as you could call it. I think the only one definitive trait that sums up my entire listening experience is that nothing I listen to is sad (most of the time)! I gotta be happy or live the angsty emo fantasy, there are no in-betweens. Music, for me and for most people, is something that brings the ✨ colour ✨ into life. Music makes me feel alive."
-                        imageSource="https://cdn52.picsart.com/175978815000202.gif?to=crop&type=webp&r=40x40&q=50"
+                        genreDescriptionTitle="Get a taste of my taste of music! "
+                        genreDescription="The albums in this section will give a good idea of the different kinds of things I like listening to :D A bit of everything, but also not really, it takes me too long to find the perfect albums to represent my 'music map' as you could call it. I think the only one definitive trait that sums up my entire listening experience is that nothing I listen to is sad (most of the time)! I gotta be happy or live the angsty emo fantasy, there are no in-betweens. Music, for me and for most people, is something that brings the ✨ colour ✨ into life. Music makes me feel alive."
+                        imageSource="https://gifdb.com/images/thumbnail/flying-birds-above-the-sea-anime-aesthetic-57jj9md4i2o4d3ey.gif"
                         ></Genre>
                     <Container>{this.state.albumValues[0].map(this.listAlbums)}</Container>
                     <ImageContainer>
-                        <img src={"https://64.media.tumblr.com/65ede0b7a4d4200c444977c37d02329b/tumblr_pluybhP4NX1veuiydo4_540.gifv"}></img>
-                        <img src={"https://1.bp.blogspot.com/-AuwAEbbMnEQ/XWE91TpGspI/AAAAAAAAATQ/viTwSHyTYH0i0SngdGbeGfRgOanAs7n3QCLcBGAs/s1600/Azusa%2Bpet.gif"}></img>
+                        <img src={"https://media.tenor.com/G6CaI-iHKnEAAAAC/accension-god.gif"}></img>
+                        <img src={"https://thumbs.gfycat.com/AcceptableFeminineBluetonguelizard-size_restricted.gif"}></img>
                     </ImageContainer>
                     <Container>{this.state.albumValues[1].map(this.listAlbums)}</Container>
                 </Section>
