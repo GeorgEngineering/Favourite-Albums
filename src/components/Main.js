@@ -64,50 +64,50 @@ class Main extends React.Component {
                 [
                     {
                         id:1, 
-                        albumSrc:"https://e.snmc.io/i/600/w/f1043575076fc5c0d838a27b2db41736/9250694/ginger-root-city-slicker-Cover-Art.jpg", 
-                        albumName:"City Slicker", 
-                        color: "#c9daf8", 
-                        albumArtist: "Ginger Root", 
-                        albumDesc:"Pop (bedroom pop), apparently it’s elevator pop so funky"
+                        albumSrc:"https://f4.bcbits.com/img/a4253468204_10.jpg", 
+                        albumName:"Nypmh Tones", 
+                        color: "#77ff00", 
+                        albumArtist: "Galen Tiptop", 
+                        albumDesc:"Sound-collage, electronic, brain happiness"
                     },
                     {
                         id:2, 
+                        albumSrc:"https://m.media-amazon.com/images/I/71zmIZ68XIL._AC_SL1000_.jpg", 
+                        albumName:"The Divine Move", 
+                        color: "#77ff00", 
+                        albumArtist: "Vampilia", 
+                        albumDesc:"Post-Rock, Avant-Garde Metal, Black Metal, Bitmapcore"
+                    },
+                    {
+                        id:3, 
                         albumSrc:"https://e.snmc.io/i/600/w/64f719f4361cab0ce9754b61343480ac/7551498/raveena-lucid-Cover-Art.jpg", 
                         albumName:"Lucid", 
                         color: "#a6ffa9", 
+                        color: "#77ff00", 
                         albumArtist: "Raveena", 
                         albumDesc:"R&B, Neo-soul, Pop"
                     },
                     {
-                        id:3, 
-                        albumSrc:"https://e.snmc.io/i/600/w/2a9a36095dfc6769f7907c89007f394d/7068695/crush-wonderlost-Cover-Art.jpg", 
-                        albumName:"Wonderlost", 
-                        color: "#006af5", 
-                        albumArtist: "Crush", 
-                        albumDesc:"Pop, hip hop, R&B, experimental"
-                    },
-                    {
                         id:4, 
-                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/e/ea/Blackparadecover.jpg", 
-                        albumName:"The Black Parade", 
-                        color: "#fff", 
-                        bgColor: "black",
-                        albumArtist: "My Chemical Romance", 
-                        albumDesc:"Emo, Punk rock, Pop-punk, Pop music, Alternative rock. MAMA WE ALL GO TO HELL."
+                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/8/82/Bill_Evans_Trio_Portraits_in_Jazz.jpg", 
+                        albumName:"Portrait in Jazz", 
+                        color: "#77ff00",
+                        albumArtist: "Bill Evans", 
+                        albumDesc:"Best jazz, I don't know if it's of all time."
                     },
                     {
                         id:5, 
-                        albumSrc:"https://i.scdn.co/image/ab67616d0000b273827c6792fe8f6f0c289c7b68", 
-                        albumName:"s p a c e [s]", 
-                        color: "#eb4034", 
-                        albumArtist: "Survive Said The Prophet", 
-                        albumDesc:"J-metal, pop(?). They have songs in english and japanese! Is it too pretentious to call it art?"
+                        albumSrc:"https://f4.bcbits.com/img/a3956726341_5.jpg", 
+                        albumName:"nightlife", 
+                        color: "#77ff00", 
+                        albumArtist: "yuragi", 
+                        albumDesc:"Shoegaze, Dream Pop, Alternative Rock"
                     },
                     {
                         id:6, 
                         albumSrc:"https://e.snmc.io/i/600/s/38f9a70c4e2dfb6947deedfe944307cd/7725355/phum-viphurit-bangkok-balter-club-Cover-Art.jpg", 
                         albumName:"Bangkok Balter Club", 
-                        color: "#fdf467", 
+                        color: "#77ff00", 
                         albumArtist: "Phum Viphurit", 
                         albumDesc:"Pop, awesomeness, indie, rock????, happiness feelings"
                     },
