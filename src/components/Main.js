@@ -1469,7 +1469,7 @@ class Main extends React.Component {
                     <a href={'#citypop'}>Citypop</a>
                     <a href={'#indie'}>Indie</a>
                     <a href={'#pop'}>Pop</a>
-                    <a href={'#kpop'}>K-pop</a>
+                    <a href={'#kpop'}>Kpop</a>
                     <a href={'#jazz'}>Jazz</a>
                     <a href={'#classical'}>Classical</a>
                     <a href={'#kindie'}>K-Indie</a>
@@ -1524,7 +1524,7 @@ class Main extends React.Component {
                     <Container>{this.state.albumValues[7].map(this.listAlbums)}</Container>
                 </Section>
 
-                {/* K-pop */}
+                {/* Kpop */}
                 <Section id="kpop" backgroundColor="#01023b" artistColor="#00fc48">
                     <Genre genreName="K-pop"/>
                     <Container>{this.state.albumValues[8].map(this.listAlbums)}</Container>
