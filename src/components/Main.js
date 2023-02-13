@@ -131,6 +131,14 @@ class Main extends React.Component {
                     },
                     {
                         id:9, 
+                        albumSrc:"https://e.snmc.io/i/1200/s/2a92ab5fe62154f7fd252b3c18791161/3537929", 
+                        albumName:"Tokyo Utopia Tsushin", 
+                        color: "#77ff00", 
+                        albumArtist: "Lamp", 
+                        albumDesc:"Shibuya-kei, Jazz Pop, Progressive Pop Lounge, Progressive Pop, Sophisti-Pop"
+                    },
+                    {
+                        id:10, 
                         albumSrc:"https://i.ytimg.com/vi/33VE3m6q9sk/hqdefault.jpg?sqp=-oaymwEWCMACELQBIAQqCghQEJADGFogjgJIWg&rs=AMzJL3mechZFNCI_-KHOR-X8lgu-dftNcg", 
                         albumName:"あらためまして、はじめまして、ミドリです", 
                         color: "#77ff00", 
@@ -138,28 +146,20 @@ class Main extends React.Component {
                         albumDesc:"Art Punk, Noise Rock, Jazz-Rock, Experimental Rock, Post-Hardcore, Japanese Hardcore"
                     },
                     {
-                        id:10, 
-                        albumSrc:"https://m.media-amazon.com/images/I/71ajNuf3VlL._AC_SL1082_.jpg", 
-                        albumName:"Collide With The Sky", 
-                        color: "#057831", 
-                        albumArtist: "Pierce the Veil", 
-                        albumDesc:"This album scratches my brain. I feel like I'm angstily entering the darkness."
-                    },
-                    {
                         id:11, 
                         albumSrc:"https://i.scdn.co/image/ab67616d0000b2735b131d745dafd8666254fe96", 
                         albumName:"Sawayama", 
-                        color: "#e2b900", 
+                        color: "#77ff00", 
                         albumArtist: "Rina Sawayama", 
                         albumDesc:"Alternative/indie, rock"
                     },
                     {
                         id:12, 
-                        albumSrc:"https://f4.bcbits.com/img/a2138983852_10.jpg", 
-                        albumName:"Constant State of Ohio", 
-                        color: "#ff7300", 
+                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/c/cf/One_X.png", 
+                        albumName:"One-X", 
+                        color: "#77ff00", 
                         albumArtist: "Lincoln", 
-                        albumDesc:"Rock... me crying."
+                        albumDesc:"Post-Grunge, Hard Rock, Alternative Metal, Alt-Rock and Nu-Metal"
                     },
                 ],
                 // City Pop id: 13-24
