@@ -115,27 +115,27 @@ class Main extends React.Component {
                 [
                     {
                         id:7, 
-                        albumSrc:"https://i.scdn.co/image/ab67616d0000b2739eb698848bf7503c96ca97a3", 
+                        lbumSrc:"https://i.scdn.co/image/ab67616d0000b2739eb698848bf7503c96ca97a3", 
                         albumName:"Ho-Kago Tea Time",
-                        color: "#ffce63", 
+                        color: "#77ff00", 
                         albumArtist: "K-ON", 
                         albumDesc:"Fuwa fuwa time is a genre all by itself. Anime, j-pop, punk pop, j-rock, influenced by hard rock as well."
                     },
                     {
                         id:8, 
-                        albumSrc:"https://e.snmc.io/i/600/w/3213f8bb11d45bc0651ca149c30a5b76/7525173/nct-127-nct-127-we-are-superhuman-Cover-Art.jpg", 
-                        albumName:"We Are Superhuman", 
-                        color: "#a6b3ff", 
-                        albumArtist: "NCT 127", 
-                        albumDesc:"Kpop, R&B, hip hop, EDM"
+                        albumSrc:"https://e.snmc.io/i/600/w/2a9a36095dfc6769f7907c89007f394d/7068695/crush-wonderlost-Cover-Art.jpg", 
+                        albumName:"Wonderlost", 
+                        color: "#77ff00", 
+                        albumArtist: "Crush", 
+                        albumDesc:"Pop, Hip-Hop, R&B, Experimental"
                     },
                     {
                         id:9, 
-                        albumSrc:"https://i.scdn.co/image/ab67616d0000b27350c7e18c9c49e7649817235c", 
-                        albumName:"Break Your Desire", 
-                        color: "#bd0071", 
-                        albumArtist: "Roselia (Bang Dream)", 
-                        albumDesc:"Alternative rock J-pop, anime, rock"
+                        albumSrc:"https://i.ytimg.com/vi/33VE3m6q9sk/hqdefault.jpg?sqp=-oaymwEWCMACELQBIAQqCghQEJADGFogjgJIWg&rs=AMzJL3mechZFNCI_-KHOR-X8lgu-dftNcg", 
+                        albumName:"あらためまして、はじめまして、ミドリです", 
+                        color: "#77ff00", 
+                        albumArtist: "ミドリ", 
+                        albumDesc:"Art Punk, Noise Rock, Jazz-Rock, Experimental Rock, Post-Hardcore, Japanese Hardcore"
                     },
                     {
                         id:10, 
