@@ -39,7 +39,8 @@ const Section = styled.section`
 `;
 const Container = styled.section`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: space-around;
 `
 const ImageContainer = styled.div`
     display: flex;
@@ -718,12 +719,12 @@ class Main extends React.Component {
                     },
                     {
                         id:39, 
-                        albumSrc:"https://media.pitchfork.com/photos/618a3190a06d7bd133209ff8/1:1/w_600/100000x100000-999.jpeg", 
-                        albumName:"An Evening With Silk Sonic",
+                        albumSrc:"https://e.snmc.io/i/600/s/0d1c27615dfcf4ce98fa088775ac6f9c/5349268/ariana-grande-my-everything-Cover-Art.png", 
+                        albumName:"My Everything",
                         color: "#e3e85a", 
                         bgColor: "#e85ae3",
-                        albumArtist: "Silk Sonic", 
-                        albumDesc:"I was gonna put other Bruno Mars albums but this came and shook me and I don't know any albums other than this."
+                        albumArtist: "Ariana Grande", 
+                        albumDesc:"I went to Ariana Grande's Sweetner Concert. After taking so many videos my phone lost storage ;-;."
                     },
                     {
                         id:40, 
@@ -736,12 +737,12 @@ class Main extends React.Component {
                     },
                     {
                         id:41, 
-                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/d/d4/Honey_Mariah_Carey_Single.png", 
-                        albumName:"Honey",
+                        albumSrc:"https://i.scdn.co/image/ab67616d0000b2737c5196593b6ab9382a794d26", 
+                        albumName:"Greatest Hits – Chapter One",
                         color: "#e3e85a", 
                         bgColor: "#e85ae3", 
-                        albumArtist: "Mariah Carey", 
-                        albumDesc:"I don't have to explain why I like this album either, right?"
+                        albumArtist: "Kelly Clarkson", 
+                        albumDesc:"I had a very very strong Kelly Clarkson phase. I listened to her songs every second of the day and I got her CDs and I could tell you the details of each of the MVs. Since then I don't think I've ever had a stronger obsession."
                     },
                     {
                         id:42, 
@@ -756,12 +757,7 @@ class Main extends React.Component {
                 [
                     {
                         id:43, 
-                        albumSrc:"https://e.snmc.io/i/600/s/0d1c27615dfcf4ce98fa088775ac6f9c/5349268/ariana-grande-my-everything-Cover-Art.png", 
-                        albumName:"My Everything",
-                        color: "#e3e85a", 
-                        bgColor: "#e85ae3",
-                        albumArtist: "Ariana Grande", 
-                        albumDesc:"I went to Ariana Grande's Sweetner Concert. After taking so many videos my phone lost storage ;-;."
+                        
                     },
                     {
                         id:44, 
@@ -801,12 +797,7 @@ class Main extends React.Component {
                     },
                     {
                         id:48, 
-                        albumSrc:"https://i.scdn.co/image/ab67616d0000b2737c5196593b6ab9382a794d26", 
-                        albumName:"Greatest Hits – Chapter One",
-                        color: "#e3e85a", 
-                        bgColor: "#e85ae3", 
-                        albumArtist: "Kelly Clarkson", 
-                        albumDesc:"I had a very very strong Kelly Clarkson phase. I listened to her songs every second of the day and I got her CDs and I could tell you the details of each of the MVs. Since then I don't think I've ever had a stronger obsession."
+                        
                     },
                 ],
                 // K-Pop (14-15)
@@ -815,39 +806,36 @@ class Main extends React.Component {
                         id:49, 
                         albumSrc:"https://i.scdn.co/image/ab67616d0000b2736538b8e1b5c7b2a9d2211769", 
                         albumName:"Perfect Velvet",
-                        color: "#FF10F0", 
-                        albumArtist: "Red Velvet", 
+                        color: "#d7b7e8",                        albumArtist: "Red Velvet", 
                         albumDesc:"There's a reason why this is called PERFECT Velvet. Everything about Red Velvet is perfect. I don't stan groups because I'm lazy and have too many things going on but I'm damn near a stan just for Red Velvet. If I could keep only one kpop album out of all of the albums there could ever exist, I would choose this one. Though not really, because I'm too scared to get tired of any of these songs. They're so perfect. UGH. UGHWTIGHEPIUHG"
                     },
                     {
                         id:50, 
                         albumSrc:"https://upload.wikimedia.org/wikipedia/en/0/04/NCT_127_Neo_Zone.jpg", 
                         albumName:"Neo Zone",
-                        color: "#ff8c00", 
-                        albumArtist: "NCT 127", 
+                        color: "#d7b7e8",                        albumArtist: "NCT 127", 
                         albumDesc:"I really like the trend where the songs make really weird and wack and loud sound effects out of even weirder and wack-er sounds. Also shout out to Mark Lee."
                     },
                     {
                         id:51, 
                         albumSrc:"https://upload.wikimedia.org/wikipedia/en/1/19/Mamamoo_Melting_album_cover.png", 
                         albumName:"Melting",
-                        color: "#FF10F0",
-                        albumArtist: "Mamamoo", 
+                        color: "#d7b7e8",                        albumArtist: "Mamamoo", 
                         albumDesc:"Mamamooo is a REALLY talented group. They are iconic in every way."
                     },
                     {
                         id:52, 
                         albumSrc:"https://upload.wikimedia.org/wikipedia/en/5/54/Shinee1of1.jpg", 
                         albumName:"1 of 1",
-                        color: "#FF10F0",
-                        albumArtist: "SHINEE", 
+                        color: "#d7b7e8",                       
+                         albumArtist: "SHINEE", 
                         albumDesc:"One of one giiirlll"
                     },
                     {
                         id:53, 
                         albumSrc:"https://upload.wikimedia.org/wikipedia/en/a/aa/IU-Modern_Times.jpg", 
                         albumName:"Modern Times",
-                        color: "#FF10F0", 
+                        color: "#d7b7e8",                        
                         albumArtist: "IU", 
                         albumDesc:"It's so hard to decide which IU album is the best. I wish I could say all, but if I was forced by gunpoint to say which one, I would probably say Modern Times. So jazzy. So perfectly done. So nostalgic. So everything. IU is so talented, dude."
                     },
@@ -855,7 +843,7 @@ class Main extends React.Component {
                         id:54, 
                         albumSrc:"https://upload.wikimedia.org/wikipedia/en/6/62/GirlsGeneration5thAlbumLionHeart.jpg", 
                         albumName:"Lion Heart",
-                        color: "#FF10F0", 
+                        color: "#d7b7e8",                        
                         albumArtist: "Girls' Generation", 
                         albumDesc:"SNSD, I love you."
                     },
@@ -865,7 +853,7 @@ class Main extends React.Component {
                         id:55, 
                         albumSrc:"https://upload.wikimedia.org/wikipedia/en/b/bd/%2B%2B_%28Loona_EP%29.jpg", 
                         albumName:"[+ +]",
-                        color: "#FF10F0", 
+                        color: "#d7b7e8",                        
                         albumArtist: "LOONA", 
                         albumDesc:"I would sarcastically like to just say 'Stan LOONA'. They have good songs!"
                     },
@@ -873,7 +861,7 @@ class Main extends React.Component {
                         id:56, 
                         albumSrc:"https://upload.wikimedia.org/wikipedia/en/e/ea/GFriend_LOL_album.jpg", 
                         albumName:"LOL",
-                        color: "#FF10F0", 
+                        color: "#d7b7e8",                        
                         albumArtist: "GFRIEND", 
                         albumDesc:"GFRIEND gives me many memories. Very happy memories. And makes me think of my friend who really likes GFRIEND. My friend and I used to listen to many songs and their list was always populated by many GFRIEND songs. At first I didn't like many girl group songs but after this indoctrination I have suddenly opened my eyes to the beautiful reality that is perfection."
                     },
@@ -881,33 +869,31 @@ class Main extends React.Component {
                         id:57, 
                         albumSrc:"https://upload.wikimedia.org/wikipedia/en/0/0b/BTS_The_Most_Beautiful_Moment_In_Life%2C_Part_2_album_cover.jpg", 
                         albumName:"The Most Beautiful Moment in Life (All Parts)",
-                        color: "#FF10F0", 
+                        color: "#d7b7e8",                        
                         albumArtist: "BTS", 
                         albumDesc:"Old BTS is a vibe. Brings back those middle school memories, where I didn't have to work and I could focus on playing beat games, listening to Converse High, staying up until 3AM for no good reason, and drawing bad art."
                     },
                     {
                         id:58, 
-                        albumSrc:"https://i.scdn.co/image/ab67616d0000b273aab7f1de2a5fccba3b095574", 
-                        albumName:"EXO 2nd REPACKAGE Album",
-                        color: "#FF10F0", 
-                        albumArtist: "EXO", 
-                        albumDesc:"So many classic songs. I wanna go back to the time when 2nd generation kpop was popular just for the memories. If I did travel back in time I would also tell my old self to stop being such a lazy person. "
+                        albumSrc:"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/31Kzns1EYyL.jpg", 
+                        albumName:"White Wind",
+                        color: "#d7b7e8", 
+                        albumArtist: "Mamamoo", 
+                        albumDesc:"Euroband."
                     },
                     {
                         id:59, 
                         albumSrc:"https://upload.wikimedia.org/wikipedia/en/5/52/BoA-KissMyLips.jpg", 
                         albumName:"Kiss My Lips",
-                        color: "#FF10F0", 
-                        albumArtist: "BoA", 
+                        color: "#d7b7e8",                        albumArtist: "BoA", 
                         albumDesc:"BoA is the Queen of K-pop."
                     },
                     {
                         id:60, 
-                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/f/fb/Dreamcatcher_-_Dystopia_The_Tree_of_Language.jpg", 
-                        albumName:"Dystopia: The Tree of Language",
-                        color: "#FF10F0", 
-                        albumArtist: "Dreamcatcher", 
-                        albumDesc:"The perfect blend of rock and K-pop."
+                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/c/cc/Oh_My_Girl_-_Secret_Garden.png", 
+                        albumName:"Secret Garden",
+                        color: "#d7b7e8",                        albumArtist: "OH MY GIRL", 
+                        albumDesc:"Magical and melodical. I miss the sound of old-school k-pop girl groups."
                     },
                 ],
                 // K-Indie (16-17)
@@ -1118,39 +1104,39 @@ class Main extends React.Component {
                         id:109, 
                         albumSrc:"https://images.genius.com/ef56aca5228fcd7af151d1a561748b1a.1000x1000x1.jpg", 
                         albumName:"Will I See You Again?",
-                        color: "#de6800", 
+                        color: "#77ff00", 
                         albumArtist: "Thee Sacred Souls", 
                         albumDesc:"I'm angry they don't have more!"
                     },
                     {
                         id:110, 
-                        albumSrc:"https://i.scdn.co/image/ab67616d0000b273e535e8147235d96bb734ba41", 
-                        albumName:"Tú",
-                        color: "#de6800", 
-                        albumArtist: "Maye", 
-                        albumDesc:"This specific album is only one song but if I'm going to pretend that I'm combining all of the songs together into one album."
+                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/d/d4/Honey_Mariah_Carey_Single.png", 
+                        albumName:"Honey",
+                        color: "#77ff00", 
+                        albumArtist: "Mariah Carey", 
+                        albumDesc:"I don't have to explain why I like this album either, right?"
                     },
                     {
                         id:111, 
                         albumSrc:"https://cdn.albumoftheyear.org/album/2015/34024-urban-flora.jpg", 
                         albumName:"Urban Flora",
-                        color: "#de6800", 
+                        color: "#77ff00", 
                         albumArtist: "Alina Baraz and Galimatia",
                         albumDesc:"Feels like I'm floating in space~"
                     },
                     {
                         id:112, 
-                        albumSrc:"https://cdn.albumoftheyear.org/album/367796-typical-of-me.jpg", 
-                        albumName:"Typical of me",
-                        color: "#de6800", 
-                        albumArtist: "Laufey", 
-                        albumDesc:"More jazz than R&B, but it didn't feel jazz enough to be jazz... but it doesn't sound un-jazz. You know what I don't know but I know that I like this album lmao."
+                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/7/74/Usher_-_Confessions_album_cover.jpg", 
+                        albumName:"Confessions",
+                        color: "#77ff00", 
+                        albumArtist: "Usher", 
+                        albumDesc:"Nostalgic also did Frozen steal from one of Usher's songs or was I imagining something?"
                     },
                     {
                         id:113, 
                         albumSrc:"https://upload.wikimedia.org/wikipedia/en/5/5f/On_the_6_%28Jennifer_Lopez_album_-_cover_art%29.png", 
                         albumName:"On the 6",
-                        color: "#de6800", 
+                        color: "#77ff00", 
                         albumArtist: "Jennifer Lopez", 
                         albumDesc:"Childhood. Anyway, just a few months ago I thought Jennifer Lopez and JLO were two different people. What the heck."
                     },
@@ -1158,7 +1144,7 @@ class Main extends React.Component {
                         id:114, 
                         albumSrc:"https://cdn.albumoftheyear.org/album/50041-new-beginning.jpg", 
                         albumName:"New Beginning",
-                        color: "#de6800", 
+                        color: "#77ff00", 
                         albumArtist: "SWV", 
                         albumDesc:"You're the ooooooneeeeeee"
                     },
@@ -1168,7 +1154,7 @@ class Main extends React.Component {
                         id:115, 
                         albumSrc:"https://cdn2.albumoftheyear.org/250x/album/92686-feels-1.jpg", 
                         albumName:"FEELS",
-                        color: "#de6800", 
+                        color: "#77ff00", 
                         albumArtist: "Snoh Aalegra", 
                         albumDesc:"Hits different when you exist 😔"
                     },
@@ -1176,42 +1162,42 @@ class Main extends React.Component {
                         id:116, 
                         albumSrc:"https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Off_the_wall.jpg/220px-Off_the_wall.jpg", 
                         albumName:"Off The Wall",
-                        color: "#de6800", 
+                        color: "#77ff00", 
                         albumArtist: "Michael Jackson", 
                         albumDesc:"Yes there are two MJ albums on this. Why wouldn't there be? You think I'm a fool?"
                     },
                     {
                         id:117, 
-                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/7/74/Usher_-_Confessions_album_cover.jpg", 
-                        albumName:"Confessions",
-                        color: "#de6800", 
-                        albumArtist: "Usher", 
-                        albumDesc:"Nostalgic also did Frozen steal from one of Usher's songs or was I imagining something?"
+                        albumSrc:"https://e.snmc.io/i/600/w/64f719f4361cab0ce9754b61343480ac/7551498/raveena-lucid-Cover-Art.jpg", 
+                        albumName:"Lucid", 
+                        color: "#77ff00", 
+                        albumArtist: "Raveena", 
+                        albumDesc:"R&B, Neo-soul, Pop"
                     },
                     {
                         id:118, 
                         albumSrc:"https://upload.wikimedia.org/wikipedia/en/e/e2/Songs_in_the_key_of_life.jpg", 
                         albumName:"Songs in the Key of Life",
-                        color: "#de6800", 
+                        color: "#77ff00", 
                         albumArtist: "Stevie Wonder", 
                         albumDesc:"Stevie Wonder is 111120809284029384/10"
                     },
                     {
                         id:119, 
-                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/8/83/Aaliyah_album_cover.jpg", 
-                        albumName:"Aaliyah",
-                        color: "#de6800", 
-                        albumArtist: "Aaliyah", 
-                        albumDesc:"Aaliyah."
+                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/8/8e/Silk_Sonic_-_An_Evening_with_Silk_Sonic.png", 
+                        albumName:"An Evening With Silk Sonic",
+                        color: "#77ff00", 
+                        albumArtist: "Silk Sonic", 
+                        albumDesc:"Silc and sonic."
                     },
-                    {
-                        id:120, 
-                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/5/55/LaurynHillTheMiseducationofLaurynHillalbumcover.jpg", 
-                        albumName:"The Miseducation of Lauryn Hill",
-                        color: "#de6800", 
-                        albumArtist: "Lauryn Hill", 
-                        albumDesc:"Obviously."
-                    },
+                    // {
+                    //     id:120, 
+                    //     albumSrc:"https://upload.wikimedia.org/wikipedia/en/5/55/LaurynHillTheMiseducationofLaurynHillalbumcover.jpg", 
+                    //     albumName:"The Miseducation of Lauryn Hill",
+                    //     color: "#77ff00", 
+                    //     albumArtist: "Lauryn Hill", 
+                    //     albumDesc:"Obviously."
+                    // },
                 ],
                 // K-R&B (22-23)
                 [
@@ -1349,12 +1335,12 @@ class Main extends React.Component {
                         albumDesc:"Edgeworth vibes."
                     },
                     {
-                        id:155, 
-                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/6/61/Little_Simz_-_Sometimes_I_Might_Be_Introvert.jpeg", 
-                        albumName:"Sometimes I Might Be Introvert",
+                        id:161, 
+                        albumSrc:"https://e.snmc.io/i/1200/s/9ddde11c30e7b108d826fff244b2a0f4/7047246", 
+                        albumName:"IM",
                         color: "", 
-                        albumArtist: "Little Simz", 
-                        albumDesc:"This album FEELS beautifully crafted. It's great."
+                        albumArtist: "Indigo Music", 
+                        albumDesc:"Cool album, makes me feel hyped."
                     },
                     {
                         id:156, 
@@ -1390,14 +1376,14 @@ class Main extends React.Component {
                         albumArtist: "Jay Park", 
                         albumDesc:"My first encounter with Jay Park was unknowingly when I listened to 2pm. Then it was MOMMAE and the MV was too sacrilegious to look at. I think I had a small Jay Park phase cuz I had two of his albums."
                     },
-                    {
-                        id:161, 
-                        albumSrc:"https://e.snmc.io/i/1200/s/9ddde11c30e7b108d826fff244b2a0f4/7047246", 
-                        albumName:"IM",
-                        color: "", 
-                        albumArtist: "Indigo Music", 
-                        albumDesc:"Slaps hard. I keep returning to it if I need to feel hyped."
-                    },
+                    // {
+                    //     id:161, 
+                    //     albumSrc:"https://e.snmc.io/i/1200/s/9ddde11c30e7b108d826fff244b2a0f4/7047246", 
+                    //     albumName:"IM",
+                    //     color: "", 
+                    //     albumArtist: "Indigo Music", 
+                    //     albumDesc:"Slaps hard. I keep returning to it if I need to feel hyped."
+                    // },
                     {
                         id:162, 
                         albumSrc:"https://cdn.albumoftheyear.org/album/238424-u-n-u-part-1.jpg", 
@@ -1419,128 +1405,158 @@ class Main extends React.Component {
                 [
                     {
                         id:176, 
-                        albumSrc:"https://cdn2.albumoftheyear.org/500x/album/166251-recently-1.jpg", 
-                        albumName:"Recently",
-                        color: "#e2b900", 
-                        albumArtist: "Liana Flores", 
-                        albumDesc:"Folk pop, wow this is so pretty-pop"
+                        albumSrc:"https://e.snmc.io/i/1200/s/dc07951189e6126891e3b573c808484d/1748041", 
+                        albumName:"Ella in Berlin: Mack in the Knife",
+                        color: "#fff", 
+                        albumArtist: "Ella Fitzgerald", 
+                        albumDesc:"Since I was super young I've always been in love with Jazz. Usually I never remember the stations for specific genres, but I always knew the Jazz Channel. Ella Fitzgerald and Louis Armstrong were the artists I could listen to on repeat and love it every single time."
                     },
                     {
                         id:177, 
-                        albumSrc:"https://e.snmc.io/i/600/s/23a4958b809d807a906be82813d0d8dd/8542038/%E9%9D%92%E8%91%89%E5%B8%82%E5%AD%90-ichiko-aoba-0-Cover-Art.jpg", 
-                        albumName:"0",
-                        color: "#ffcccc", 
-                        albumArtist: "Ichiko Aoba", 
-                        albumDesc:"Enchanting, beautiful. I love her singing, just the way her songs sound, it's kind of hard to describe why I'm obsessed with this. Surprisingly, it also reminds me of something I actually did listen to a long time ago, though I don't remember what it is anymore."
+                        albumSrc:"https://e.snmc.io/i/1200/s/7fd70c297122bd5c747d4efddd2c8464/5303329", 
+                        albumName:"Funky Stuff",
+                        color: "#fff", 
+                        albumArtist: "JIRO INAGAKI & SOUL MEDIA", 
+                        albumDesc:"Accurate album title."
                     },
                     {
                         id:178, 
-                        albumSrc:"https://i.scdn.co/image/ab67616d0000b27393a1519118102a6d78164713", 
-                        albumName:"This Empty Northern Hemisphere",
-                        color: "#27005e", 
-                        albumArtist: "Gregory Alan Isakov", 
-                        albumDesc:"I'm so grateful that I found this album."
+                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/thumb/3/38/No_Problem_%28Chet_Baker_album%29.jpg/220px-No_Problem_%28Chet_Baker_album%29.jpg", 
+                        albumName:"No Problem",
+                        color: "#fff", 
+                        albumArtist: "Chet Baker Quartet", 
+                        albumDesc:"Dudududududuuuuu du du du duuuuuuuu"
                     },
                     {
                         id:179, 
-                        albumSrc:"https://cdn.albumoftheyear.org/album/390591-hitotema.jpg", 
-                        albumName:"hitotema",
-                        color: "#fcf3b3", 
-                        albumArtist: "Paniyolo", 
-                        albumDesc:"This album is soft. I feel like I've heard this long time ago, even though I only discovered around the time I was in grade 6. There's this warm feeling I hear whenever I listen to this album."
+                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/8/82/Bill_Evans_Trio_Portraits_in_Jazz.jpg", 
+                        albumName:"Portrait in Jazz",
+                        color: "#fff", 
+                        albumArtist: "Bill Evans", 
+                        albumDesc:"I love this album. Bill Evans is great. I am obsessed with Jazz Piano and particularly the way Bill Evans plays >:3."
                     },
                     {
                         id:180, 
-                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/8/83/In_the_aeroplane_over_the_sea_album_cover_copy.jpg", 
-                        albumName:"In the Aeroplane Over the Sea",
-                        color: "#91c2c0", 
-                        albumArtist: "Neutral Milk Hotel", 
-                        albumDesc:"I remember that I kept seeing this album being recommended everywhere (especially on Reddit) so I finally decided to listen to this. All I have to say is I LOVE YOU JESUUUuUUS CHRISIISTISTST"
-                    }
+                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/0/05/Yussefkamaalblackfocus.png", 
+                        albumName:"Black Focus",
+                        color: "#fff", 
+                        albumArtist: "Yussef Kamaal", 
+                        albumDesc:"So jazzy, so smooth, so fresh, so (as they say in classical music youtube comments) sublime."
+                    },
+                    {
+                        id:156, 
+                        albumSrc:"https://i.scdn.co/image/ab67616d0000b2734df08b0208be58213569b740", 
+                        albumName:"Stone Flower",
+                        color: "#fff", 
+                        albumArtist: "ANTÔNIO CARLOS JOBIM", 
+                        albumDesc:"I call this the legendary secretly-recommended-to-everyone jazz album of Youtube that I'm fine was gifted to me by the algorithm. This is what the algorithm was destined to be for. Stone Flower."
+                    },
                 ],
                 [
                     {
-                        id:176, 
-                        albumSrc:"https://cdn2.albumoftheyear.org/500x/album/166251-recently-1.jpg", 
-                        albumName:"Recently",
-                        color: "#e2b900", 
-                        albumArtist: "Liana Flores", 
-                        albumDesc:"Folk pop, wow this is so pretty-pop"
+                        id:157, 
+                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/9/9c/MilesDavisKindofBlue.jpg", 
+                        albumName:"Kind of Blue",
+                        color: "#fff", 
+                        albumArtist: "Miles Davis", 
+                        albumDesc:"Classic jazz album. Miles Davis is senpai. The record costs too much money."
                     },
                     {
-                        id:177, 
-                        albumSrc:"https://e.snmc.io/i/600/s/23a4958b809d807a906be82813d0d8dd/8542038/%E9%9D%92%E8%91%89%E5%B8%82%E5%AD%90-ichiko-aoba-0-Cover-Art.jpg", 
-                        albumName:"0",
-                        color: "#ffcccc", 
-                        albumArtist: "Ichiko Aoba", 
-                        albumDesc:"Enchanting, beautiful. I love her singing, just the way her songs sound, it's kind of hard to describe why I'm obsessed with this. Surprisingly, it also reminds me of something I actually did listen to a long time ago, though I don't remember what it is anymore."
+                        id:158, 
+                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Various_Artists_-_Jazz_for_a_Rainy_Afternoon_Cover.jpg/220px-Various_Artists_-_Jazz_for_a_Rainy_Afternoon_Cover.jpg", 
+                        albumName:"Jazz for a Rainy Afternoon",
+                        color: "#fff", 
+                        albumArtist: "Various Artists", 
+                        albumDesc:"I could sing to you the entire album."
                     },
                     {
-                        id:178, 
-                        albumSrc:"https://i.scdn.co/image/ab67616d0000b27393a1519118102a6d78164713", 
-                        albumName:"This Empty Northern Hemisphere",
-                        color: "#27005e", 
-                        albumArtist: "Gregory Alan Isakov", 
-                        albumDesc:"I'm so grateful that I found this album."
+                        id:160, 
+                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/e/ed/Monks_Dream_by_Thelonious.jpg", 
+                        albumName:"Monk's Dream",
+                        color: "", 
+                        albumArtist: "Thelonius Monk", 
+                        albumDesc:"When I think of music I think of food (and smells and colours sometimes). Thelonious Monk is jellybeans (which include cheese and potato flavours)."
                     },
                     {
-                        id:179, 
-                        albumSrc:"https://cdn.albumoftheyear.org/album/390591-hitotema.jpg", 
-                        albumName:"hitotema",
-                        color: "#fcf3b3", 
-                        albumArtist: "Paniyolo", 
-                        albumDesc:"This album is soft. I feel like I've heard this long time ago, even though I only discovered around the time I was in grade 6. There's this warm feeling I hear whenever I listen to this album."
+                        id:161, 
+                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/c/cb/Moanin%27_%28Art_Blakey%29.jpg", 
+                        albumName:"Moanin'",
+                        color: "#fff", 
+                        albumArtist: "ART BLAKEY AND THE JAZZ MESSENGERS", 
+                        albumDesc:"This doesn't have to do with the album, but Leo P's solo in Moanin' is legendary."
                     },
                     {
-                        id:180, 
-                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/8/83/In_the_aeroplane_over_the_sea_album_cover_copy.jpg", 
-                        albumName:"In the Aeroplane Over the Sea",
-                        color: "#91c2c0", 
-                        albumArtist: "Neutral Milk Hotel", 
-                        albumDesc:"I remember that I kept seeing this album being recommended everywhere (especially on Reddit) so I finally decided to listen to this. All I have to say is I LOVE YOU JESUUUuUUS CHRISIISTISTST"
+                        id:162, 
+                        albumSrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe5Z14bIAOo4QOWysJIPTa5KmyQ2CPr7BiwNlyUkE2YM0dOnmaD7z5N_uu0orHe-wsx1I&usqp=CAU", 
+                        albumName:"My Favourite Tune",
+                        color: "#fff", 
+                        albumArtist: "Ryo Fukui", 
+                        albumDesc:"Yessir"
+                    },
+                    {
+                        id:163, 
+                        albumSrc:"https://cdn2.albumoftheyear.org/250x/album/471038-gyakuten-meets-jazz-soul.jpg", 
+                        albumName:"Gyakuten Meets Jazz Soul",
+                        color: "#fff", 
+                        albumArtist: "METAMORPHOSIS JAZZ BAND, NORIYUKI IWADARE", 
+                        albumDesc:"I found this before I even knew what Ace Attorney was and I thought it was just a random album. Now I can update my autopsy report like a classy man."
                     }
                 ],
                 // Jazz (Experimental) (28-29)
                 [
                     {
-                        id:176, 
-                        albumSrc:"https://cdn2.albumoftheyear.org/500x/album/166251-recently-1.jpg", 
-                        albumName:"Recently",
-                        color: "#e2b900", 
-                        albumArtist: "Liana Flores", 
-                        albumDesc:"Folk pop, wow this is so pretty-pop"
+                        id:151, 
+                        albumSrc:"https://i1.sndcdn.com/artworks-000168596680-4nln0x-t500x500.jpg", 
+                        albumName:"Mobile Suit Gundam Thunderbolt",
+                        color: "#000", 
+                        bgColor: "#fff",
+                        albumArtist: "Naruyoshi Kikuchi", 
+                        albumDesc:"Crazy and all over the place."
                     },
                     {
-                        id:177, 
-                        albumSrc:"https://e.snmc.io/i/600/s/23a4958b809d807a906be82813d0d8dd/8542038/%E9%9D%92%E8%91%89%E5%B8%82%E5%AD%90-ichiko-aoba-0-Cover-Art.jpg", 
-                        albumName:"0",
-                        color: "#ffcccc", 
-                        albumArtist: "Ichiko Aoba", 
-                        albumDesc:"Enchanting, beautiful. I love her singing, just the way her songs sound, it's kind of hard to describe why I'm obsessed with this. Surprisingly, it also reminds me of something I actually did listen to a long time ago, though I don't remember what it is anymore."
+                        id:152, 
+                        albumSrc:"http://static1.squarespace.com/static/5eba6da74635d50f359b23da/5eba6e75b9b26c76303ab821/61014715d6d36c590d7e40cd/1627689657286/zujago_blog_post_thumbnail.jpg?format=1500w", 
+                        albumName:"The Players with Hiromasa Suzuki",
+                        color: "#000",
+                        bgColor: "#fff", 
+                        albumArtist: "Galaxy", 
+                        albumDesc:"Fusion from 1979, smooth and funky and reminiscent of trees."
                     },
                     {
-                        id:178, 
-                        albumSrc:"https://i.scdn.co/image/ab67616d0000b27393a1519118102a6d78164713", 
-                        albumName:"This Empty Northern Hemisphere",
-                        color: "#27005e", 
-                        albumArtist: "Gregory Alan Isakov", 
-                        albumDesc:"I'm so grateful that I found this album."
+                        id:153, 
+                        albumSrc:"https://lastfm.freetls.fastly.net/i/u/ar0/8d478c38ca8a4a389e9513be50ed7d3e.jpg", 
+                        albumName:"Sunset",
+                        color: "#000", 
+                        bgColor: "#fff",
+                        albumArtist: "Yuji Ohno", 
+                        albumDesc:"Epic, feels like you're in space, composed by the same person who created the Lupin the Third soundtrack."
                     },
                     {
-                        id:179, 
-                        albumSrc:"https://cdn.albumoftheyear.org/album/390591-hitotema.jpg", 
-                        albumName:"hitotema",
-                        color: "#fcf3b3", 
-                        albumArtist: "Paniyolo", 
-                        albumDesc:"This album is soft. I feel like I've heard this long time ago, even though I only discovered around the time I was in grade 6. There's this warm feeling I hear whenever I listen to this album."
+                        id:154, 
+                        albumSrc:"https://i.discogs.com/t1YQMu44dcuUruf6YxoggV9CxBzmPHkX-iQtY84ySkM/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyMTIw/MDktMTQ1NzIyOTEz/NC0xNDM4LmpwZWc.jpeg", 
+                        albumName:"Stone Alliance",
+                        color: "#000", 
+                        bgColor: "#fff",
+                        albumArtist: "Con Amigos", 
+                        albumDesc:"Afro-Cuban jazz, I've only recently found this album but I already love it ."
                     },
                     {
-                        id:180, 
-                        albumSrc:"https://upload.wikimedia.org/wikipedia/en/8/83/In_the_aeroplane_over_the_sea_album_cover_copy.jpg", 
-                        albumName:"In the Aeroplane Over the Sea",
-                        color: "#91c2c0", 
-                        albumArtist: "Neutral Milk Hotel", 
-                        albumDesc:"I remember that I kept seeing this album being recommended everywhere (especially on Reddit) so I finally decided to listen to this. All I have to say is I LOVE YOU JESUUUuUUS CHRISIISTISTST"
+                        id:155, 
+                        albumSrc:"https://e.snmc.io/i/1200/s/0e7b5c58603200149c44dccc2362911e/9408051", 
+                        albumName:"Sweet Magic",
+                        color: "#000",
+                        bgColor: "#fff",
+                        albumArtist: "Malta", 
+                        albumDesc:"Smooth nights."
+                    },
+                    {
+                        id:156, 
+                        albumSrc:"https://i.discogs.com/5DRsp9qbJPxV0f7fYoNlgKkS6lnHWhTHyalGLOz_ZdE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwMTk4/OC0xNjExMTMyODgy/LTM2MzkuanBlZw.jpeg", 
+                        albumName:"Juice",
+                        color: "#000", 
+                        bgColor: "#fff",
+                        albumArtist: "Ryo Kawasaki", 
+                        albumDesc:"Hey Google, please play that one Japanese jazz-fusion album with the cut up machine orange"
                     }
                 ],
                 [
@@ -1803,8 +1819,9 @@ class Main extends React.Component {
                     <a href={'#metal'}>Metal</a>
                     <a href={'#classical'}>Classical</a>
                     <a href={'#pop'}>Pop</a>
-                    <a href={'#kpop'}>Kpop</a>                    <a href={'#kindie'}>K-Indie</a>
-                    <a href={'#indierock'}>Indie, Rock</a>
+                    <a href={'#kpop'}>Kpop</a>                    
+                    <a href={'#kindie'}>K-Indie</a>
+                    <a href={'#indierock'}>IndieRock</a>
                     <a href={'#randb'}>R&B</a>
                     <a href={'#krandb'}>K-R&B</a>
                     <a href={'#hiphop'}>Hip Hop</a>
@@ -1871,77 +1888,77 @@ class Main extends React.Component {
                 <Section id="pop" backgroundColor="#c255b0" artistColor="#fcba03">
                     <Genre genreName="Pop"/>
                     <Container>{this.state.albumValues[12].map(this.listAlbums)}</Container>
-                    <Container>{this.state.albumValues[13].map(this.listAlbums)}</Container>
+                    {/* <Container>{this.state.albumValues[13].map(this.listAlbums)}</Container> */}
                 </Section>
 
                 {/* K-pop */}
                 <Section id="kpop" backgroundColor="#01023b" artistColor="#00fc48">
                     <Genre genreName="K-Pop"/>
+                    <Container>{this.state.albumValues[14].map(this.listAlbums)}</Container>
                     <Container>{this.state.albumValues[15].map(this.listAlbums)}</Container>
-                    <Container>{this.state.albumValues[16].map(this.listAlbums)}</Container>
                 </Section>
 
                 {/* K-Indie */}
                 <Section id="kindie" backgroundColor="#777878" artistColor="">
                     <Genre genreName="K-Indie"/>
+                    <Container>{this.state.albumValues[16].map(this.listAlbums)}</Container>
                     <Container>{this.state.albumValues[17].map(this.listAlbums)}</Container>
-                    <Container>{this.state.albumValues[18].map(this.listAlbums)}</Container>
                 </Section>
 
                 {/* Indie rock */}
                 <Section id="indierock" backgroundColor="#0000FF" artistColor="#777878">
-                    <Genre genreName="Indie, Rock & Alt"/>
-                    <Container>{this.state.albumValues[19].map(this.listAlbums)}</Container>
-                    <Container>{this.state.albumValues[20].map(this.listAlbums)}</Container>
+                    <Genre genreName="Indie Rock"/>
+                    <Container>{this.state.albumValues[18].map(this.listAlbums)}</Container>
+                    {/* <Container>{this.state.albumValues[19].map(this.listAlbums)}</Container> */}
                 </Section>
 
-                {/* R&B */}
-                <Section id="randb" backgroundColor="#bdbb97" artistColor="#695656">
-                    <Genre genreName="R&B"/>
+                {/* R&B (Or Soul) */}
+                <Section id="randb" backgroundColor="#4a412a" artistColor="#695656">
+                    <Genre genreName="R&B (Or Soul)"/>
+                    <Container>{this.state.albumValues[20].map(this.listAlbums)}</Container>
                     <Container>{this.state.albumValues[21].map(this.listAlbums)}</Container>
-                    <Container>{this.state.albumValues[22].map(this.listAlbums)}</Container>
                 </Section>
 
                 {/* KR&B */}
                 <Section id="krandb" backgroundColor="#800080" artistColor="#fcef00">
                     <Genre genreName="KR&B"/>
+                    <Container>{this.state.albumValues[22].map(this.listAlbums)}</Container>
                     <Container>{this.state.albumValues[23].map(this.listAlbums)}</Container>
-                    <Container>{this.state.albumValues[24].map(this.listAlbums)}</Container>
                 </Section>
 
                 {/* Hip Hop */}
                 <Section id="hiphop" backgroundColor="#FFFF00" artistColor="#000">
                     <Genre genreName="Hip Hop"/>
+                    <Container>{this.state.albumValues[24].map(this.listAlbums)}</Container>
                     <Container>{this.state.albumValues[25].map(this.listAlbums)}</Container>
-                    <Container>{this.state.albumValues[26].map(this.listAlbums)}</Container>
                 </Section>
 
                  {/* Jazz (General) */}
                  <Section id="jazzgen" backgroundColor="#660801" artistColor="#fcba03">
                     <Genre genreName="Jazz (General)"/>
+                    <Container>{this.state.albumValues[26].map(this.listAlbums)}</Container>
                     <Container>{this.state.albumValues[27].map(this.listAlbums)}</Container>
-                    <Container>{this.state.albumValues[28].map(this.listAlbums)}</Container>
                 </Section>
 
                  {/* Jazz (Experential) */}
-                 <Section id="jazzexp" backgroundColor="#660801" artistColor="#fcba03">
-                    <Genre genreName="Jazz (General)"/>
-                    <Container>{this.state.albumValues[29].map(this.listAlbums)}</Container>
-                    <Container>{this.state.albumValues[30].map(this.listAlbums)}</Container>
+                 <Section id="jazzexp" backgroundColor="#FA7E4A" artistColor="#FAB81D">
+                    <Genre genreName="Jazz (Experimental)"/>
+                    <Container>{this.state.albumValues[28].map(this.listAlbums)}</Container>
+                    {/* <Container>{this.state.albumValues[29].map(this.listAlbums)}</Container> */}
                 </Section>
 
                 {/* Electronic */}
                 <Section id="electronic" backgroundColor="#000" artistColor="#ff8ff8">
                     <Genre genreName="Electronic"/>
+                    <Container>{this.state.albumValues[30].map(this.listAlbums)}</Container>
                     <Container>{this.state.albumValues[31].map(this.listAlbums)}</Container>
-                    <Container>{this.state.albumValues[32].map(this.listAlbums)}</Container>
                 </Section>
 
                 {/* Folk */}
                 <Section id="folk" backgroundColor="#634d3e" artistColor="#7993bf">
                     <Genre genreName="Folk"/>
-                    <Container>{this.state.albumValues[33].map(this.listAlbums)}</Container>
-                    {/* <Container>{this.state.albumValues[34].map(this.listAlbums)}</Container> */}
+                    <Container>{this.state.albumValues[32].map(this.listAlbums)}</Container>
+                    {/* <Container>{this.state.albumValues[33].map(this.listAlbums)}</Container> */}
                 </Section>
             </div>
         )
